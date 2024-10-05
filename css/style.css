@@ -201,6 +201,7 @@ img {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row-reverse;
+        
     }
     .blog,
     .cursos {
@@ -208,7 +209,7 @@ img {
        
     }
 
-    /*SOBRE NOSOTROS*/
+    /*------SOBRE NOSOTROS-------*/
     .blog1{
         width: 100%;
         display: flex;
@@ -216,7 +217,6 @@ img {
         text-align: center;
         
     }
-
     .blog1 h2{
         padding: 15 px;
     }
@@ -234,8 +234,69 @@ img {
         padding-left: 20px;
     }
 
+    /*------*/
+
+    
+    /*-----CURSOS-------*/
+
+    .blog2 h3{
+        padding: 15 px;
+        margin: 40px;
+    }
+    
+    
+    
+    .blog2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .blog2 h3{
+        text-align: center;
+    }
+    .entrada-blog2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        column-gap: 20px;
+
+    }
+    .imagen{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 20px; 
+    }
+    .contenido-blog2{
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+
+    }
+    .contenido-blog2 p{
+        padding-bottom: 20px;
+    }
+    .contenido-blog2 h4{
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .contenido-blog2 div{
+        padding-right: 50px;
+    }
+    
+    .blog2 img {
+        max-width: 100%;
+            
+    }
 
     /*------*/
+
+
+    
     .cursos {
         order: -1;
         width: 100%;
@@ -260,7 +321,16 @@ img {
         margin-bottom: 2rem;
         border-bottom: 1px solid #e1e1e1;
     }
+
+    .entrada-blog2 {
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #e1e1e1;
+    }
+    
     .entrada-blog:last-of-type {
+        border: none;
+    }
+    .entrada-blog1:last-of-type {
         border: none;
     }
     /**CURSOS SIDEBAR**/
